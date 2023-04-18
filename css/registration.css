@@ -1,0 +1,119 @@
+div.head{
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px;
+    border-bottom: 2px solid white;
+}
+div.registration{
+    border: 3px solid white;
+    border-radius: 40px;
+    color: white;
+    width: 400px;
+    height: 530px;
+    font-size: larger;
+    margin-top:  70px; ;
+    float: right;
+    text-align: center;
+    margin-right: 170px;
+    display: none;
+}
+div.foot{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px;
+    border-top: 2px solid white;
+}
+input[type=text]{
+    margin: 15px;
+    background-color: transparent;
+    border-radius: 10px;
+    height: 30px;
+    width: 350px;
+    color: white;
+    padding: 10px;
+    font-size: 24px;
+
+}
+
+input[type=email]{
+    margin: 15px;
+    background-color: transparent;
+    border-radius: 10px;
+    height: 30px;
+    width: 350px;
+    color: white;
+    padding: 10px;
+    font-size: 24px;
+
+}
+input[type=number]{
+    margin: 15px;
+    background-color: transparent;
+    border-radius: 10px;
+    height: 30px;
+    width: 350px;
+    color: white;
+    padding: 10px;
+    font-size: 24px;
+
+}
+input[type=password]{
+    margin: 15px;
+    background-color: transparent;
+    border-radius: 10px;
+    height: 30px;
+    width: 350px;
+    color: white;
+    padding: 10px;
+    font-size: 24px;
+
+}
+
+input[type=submit]{
+    margin: 10px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 2px solid white;
+
+    color: white;
+    padding:10px 20px;
+    font-size: 24px;
+
+}
+
+input[type=reset]{
+    margin: 10px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 2px solid white;
+
+    color: white;
+    padding:10px 20px;
+    font-size: 24px;
+
+}
+.foot_main:hover{
+    text-decoration-line: underline ;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    transform: scale(1.1,1.1);
+    cursor: pointer;
+}
+input[type=reset]:hover{
+    transform: scale(1.1,1.1);
+    cursor: pointer;
+}
+div.login{
+    border: 3px solid white;
+    border-radius: 40px;
+    color: white;
+    width: 400px;
+    height: 380px;
+    font-size: larger;
+    margin-top:  70px; ;
+    float: right;
+    display: none;
+    text-align: center;
+    margin-right: 170px;
+}
